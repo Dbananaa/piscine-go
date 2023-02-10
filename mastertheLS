@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -t -p -m --ignore='.??*' | tr -d '[:blank:]'
+
